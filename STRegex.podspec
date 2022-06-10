@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/sharplet"
   s.source       = { :git => "https://github.com/sharplet/Regex.git", :tag => s.version.to_s }
   s.source_files = "Source/**/*.swift"
-  s.module_name  = "Regex"
+  s.module_name  = "STRegex"
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
